@@ -1,10 +1,16 @@
 import { createTheme } from "@mui/material";
 
-export const appThemedest = {
-    pallete: {
-        mode:"dark",
-        primary: {main: "#f5f5f1"},
-        secondary: {main: "#E50914"},
-        text: {primary: "#f5f5f1"},
+const theme = createTheme({
+    palette: {
+      mode: 'dark',
+      primary: {
+        main: '#90caf9',
+      },
+      secondary: {
+        main: '#f48fb1',
+      },
+      text: {
+        primary: '#fff',
+      },
     },
-};
+  });
